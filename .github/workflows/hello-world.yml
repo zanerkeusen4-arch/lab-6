@@ -1,6 +1,7 @@
-yaml
 name: Example Workflow
+
 on: [push]
+
 jobs:
   say_hello:
     runs-on: ubuntu-latest
