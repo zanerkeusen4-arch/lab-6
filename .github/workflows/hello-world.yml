@@ -1,0 +1,9 @@
+yaml
+name: Example Workflow
+on: [push]
+jobs:
+  say_hello:
+    runs-on: ubuntu-latets
+    steps:
+      - name: Hello step
+      run: echo "Hello from [Aiyan]"
